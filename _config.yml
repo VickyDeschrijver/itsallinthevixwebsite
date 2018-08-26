@@ -168,15 +168,15 @@ author_blurb_image: "/img/header_me.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://www.facebook.com/VixDeschrijver"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/VixDeschrijver"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+    url: "https://github.com/VickyDeschrijver"
   - title: "linkedin"
-    url: ""
+    url: "https://www.linkedin.com/in/vickydeschrijver/"
   - title: "instagram"
-    url: ""
+    url: "https://www.instagram.com/vixdeschrijver/"
   # - title: "bitcoin"
   #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   # - title: "rss"
@@ -192,7 +192,7 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: empty
 keybase-in-social: False
 keybase-in-footer: False
 
