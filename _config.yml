@@ -32,6 +32,7 @@ lang: "nl"
 author: "Vicky Deschrijver"
 title: "ItsAllInTheVix."
 description: "Personal site of Vix."
+version: "v0.1"
 keywords: "Vicky Deschrijver, front-end, jekyll"
 favicon: "/img/favicon.ico"
 
