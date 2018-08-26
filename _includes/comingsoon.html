@@ -10,9 +10,11 @@
         <a class="navbar-brand" href="{{site.baseurl}}/">
           {% endif %}
           <div>
-            {% if site.black-favicon %}
-            <img src="{{site.baseurl}}{{ site.black-favicon }}" alt=""> {% endif %} {{ site.title }}
+            {% comment %}{% if site.black-favicon %}
+            <img src="{{site.baseurl}}{{ site.black-favicon }}" alt=""> {% endif %} {% endcomment %}
+            {{ site.title }}
           </div>
+          
         </a>
     </div>
    
