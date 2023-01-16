@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/vix/sitemap.xml
+Sitemap: https://itsallinthevix.be/vix/sitemap.xml
