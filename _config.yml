@@ -1,4 +1,4 @@
-baseurl: "/vix" # the subpath of your site, e.g. /blog
+# baseurl: "/vix" # the subpath of your site, e.g. /blog
 url: "https://itsallinthevix.be"
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
