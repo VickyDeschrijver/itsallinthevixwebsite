@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Remmicom"
+date:   2020-10-01 18:05:55 +0300
+image:  Remmicom/Meeting.png
+tags:   UI Design Development AdobeXd Angular SCSS Kendo Illustrator
+role:   Front-end Developer, UI-UX designer
+team:   Narato
+duration: October 2020 - ...
+---
+
+Remmicom staat in voor applicaties die gebruikt worden voor het beheer van burgerzaken, vergaderingen, opvolgingen administratie... Bij deze tools  - uitgebouwd in Kendo Angular - hadden de developer teams ondersteuning nodig om designs verder uit te werken en op punt te zetten. De opdracht hier was niet enkel html, css en components creëren, het doel was ook dat er een mooie basis opzet zou zijn op de UI front-end zodat developers gemakkelijk verder konden bouwen met minimale extra code. 
+<br>
+<br>
+
+#### Iconen
+
+Aangezien deze applicaties een zeer specifieke nood aan iconen hebben, maakte ik ook nieuwe vector versies in illustrator die dan via een icon font worden ingeladen in de applicatie. 
+
+![Meeting.Net icons]({{ site.baseurl }}/images/Remmicom/icons.png)
+*Enkele icons van Meeting.net*

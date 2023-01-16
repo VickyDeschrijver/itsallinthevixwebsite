@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Flanders Investment and Trade (FIT)"
+date:   2020-10-01 18:05:55 +0300
+image:  FIT/myfit.png
+tags:   UI Design Development AdobeXd Angular SCSS
+role:   Front-end Developer, UI-UX designer
+team:   Narato
+duration: October 2020 - ...
+---
+MyFIT en Promotieplatform zijn platformen die gebruikt worden door Vlaamse bedrijven en internationale aankopers. Binnen deze projecten werken business, analyse, design en developers nauw samen om een mooie en gebruiksvriendelijke flow te maken. Bij het registreren voor events, subsidies of opvolgen van internationale groei komen veel features kijken die we steeds vertalen in een gebruiksvriendelijk component.
+
+## Click click click
+
+Via Adobe XD maak ik de designs. Het resultaat hiervan zijn clickable prototypes die we gebruiken om nieuwe features uit te denken, bespreken en te ontwikkelen. 
+
+![MyFIT]({{ site.baseurl }}/images/FIT/myfit-xd.png)
+*My FIT*
+
+Verder proberen we ook steeds alle design concepten te onderhouden in een consistent design. Hiervoor maakten we ons design system, gebaseerd op de FIT huisstijl met onze eigen invloeden om een zo gebruiksvriendelijke web-applicatie te ontwerpen. Voor de opbouw van ging ik uit van de concepten van atomic design. 
+
+![Design system]({{ site.baseurl }}/images/FIT/design-system.png)
+*Design system in Adobe XD*
+
+## Code code code
+
+Voor veel van onze projecten gebruiken we Angular. Samen met de developers, die zorgen voor alle functionele inbreng, zorg ik ervoor dat er ordelijke, herbruikbare en correcte css en html geschreven wordt. We proberen onze componenten generiek te maken, zodat we ze doorheen de applicatie kunnen hergebruiken. Met een BEM notatie stijl houden we de code uniform.
+
+

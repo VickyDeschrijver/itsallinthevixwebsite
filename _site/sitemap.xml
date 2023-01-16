@@ -1,149 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-        <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/blog/</loc>
-        
-          
-          
-          
-          <priority>1.0</priority>
-          
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/</loc>
-        
-          
-          
-          
-          <priority>1.0</priority>
-          
-        
-       </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-        <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/blog/page2/</loc>
-        
-          
-          
-          
-          <priority>1.0</priority>
-          
-        
-       </url>
-    
-  
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/27/welcome.html</loc>
-      
-        <lastmod>2015-06-27T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/25/initial-setup.html</loc>
-      
-        <lastmod>2015-06-25T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/24/intro-layout-tutorial.html</loc>
-      
-        <lastmod>2015-06-24T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/22/web-app-mode.html</loc>
-      
-        <lastmod>2015-06-22T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/20/blog-tutorial.html</loc>
-      
-        <lastmod>2015-06-20T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/19/writing-posts.html</loc>
-      
-        <lastmod>2015-06-19T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/12/timeline-tutorial.html</loc>
-      
-        <lastmod>2015-06-12T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/11/social-buttons-tutorial.html</loc>
-      
-        <lastmod>2015-06-11T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://VickyDeschrijver.github.io/itsallinthevixwebsite/tech/2015/06/10/contact-tutorial.html</loc>
-      
-        <lastmod>2015-06-10T00:00:00+02:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
+<url>
+<loc>http://localhost:4000/vix/2018/09/01/Baloise/</loc>
+<lastmod>2018-09-01T17:05:55+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/vix/2020/10/01/FIT/</loc>
+<lastmod>2020-10-01T17:05:55+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/vix/2020/10/01/Remmicom/</loc>
+<lastmod>2020-10-01T17:05:55+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/vix/2023/01/12/webapplicaties/</loc>
+<lastmod>2023-01-12T16:05:55+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/vix/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/over/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/ui/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/design/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/development/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/adobexd/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/angular/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/scss/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/primeng/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/kendo/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vix/tag/illustrator/</loc>
+</url>
 </urlset>

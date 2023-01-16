@@ -1,20 +1,18 @@
-<!-- Footer Start -->
+<!-- begin footer -->
+<footer class="footer">
+  <div class="container">
 
-<footer>
+    {% if site.data.settings.mailchimp %}
+    {% include subscribe.html %}
+    {% else %} {% endif %}
 
-    {% include social-buttons.html %}
+    {% if site.data.settings.instagram %}
+    {% include instagram.html %}
+    {% else %} {% endif %}
 
-    <p><br><br></p>
+    {% include contact-link.html %}
 
-    <div class="container text-center">
-        <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
-        {% if site.keybase-in-footer %}
-        <p style="font-size: 16px;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
-                class="fa fa-key"></i> {{site.keybase-username}} on Keybase</a></p>
-        {% endif %}
-    </div>
+    <div class="copyright">Copyright &copy; {{site.time | date: '%Y'}} <a href="/">{{ site.data.settings.title }}</a></div>
+</div>
 </footer>
-
-<p><br><br><br><br><br><br></p>
-
-<!-- Footer End -->
+<!-- end footer -->

@@ -1,0 +1,39 @@
+#-------------------------------
+# General Site Settings
+title: ItsallintheVix.
+logo: SVG/itsallinthevix-logo.svg # You can add own logo.
+description: When I'm not drinking coffee, I create.
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: Vicky Deschrijver
+  image: header_bg.png
+  say-hello: Hey! Ik ben <strong>Vix. Deschrijver</strong>
+  bio: UI and UX designing ** een flow en verhaal maken ** designen ** ontwikkelen ** koffietjes ** toneel ** mama zijn ** zomerse avonden in een hangmat
+
+
+#-------------------------------
+# Contact links
+twitter: https://twitter.com/VixDeschrijver # Add your Twitter handle
+facebook: https://facebook.com/VixDeschrijver # Add your Facebook handle
+github: https://github.com/VickyDeschrijver # Add your Dribbble handle
+instagram: https://instagram.com/vixdeschrijver # Add your Instagram handle
+linkedin: https://www.linkedin.com/in/vickydeschrijver/ # Add your Pinterest handle
+
+
+#-------------------------------
+# Instagram Feed
+instafeed:  # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: vixdeschrijver # Add instagram username
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e

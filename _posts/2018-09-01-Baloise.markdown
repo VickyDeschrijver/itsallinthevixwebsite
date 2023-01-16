@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Nina @ Baloise"
+date:   2018-09-01 18:05:55 +0300
+image:  Baloise/Nina.png
+tags:   UI Design Development AdobeXd Angular SCSS PrimeNg
+role:   Front-end Developer
+team:   Narato
+duration: September 2018 - December 2019
+---
+
+Nina is een nieuwe applicatie om offertes te berekenen en beheren. De grote uitdaging bij het uitwerken van dit design was dat er soms zeer beladen forms aanwezig waren. Uiteindelijk werd een mooi evenwicht gevonden tussen simpele en vlotte gebruiksvriendelijkheid en volledig, correcte data verwerking. Deze designs werden in een mooie scss en html gegoten. 
+
+
+
+![Styleguide]({{ site.baseurl }}/images/Baloise/styleguide.png)
+*Nina - some atoms and components style guide*

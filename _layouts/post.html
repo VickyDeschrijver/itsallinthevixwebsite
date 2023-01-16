@@ -1,67 +1,119 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="post-title-box">
+    <div class="row">
+      <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
 
-<!-- Post Layout Start -->
+        <h1 class="post-title">{{ page.title | escape }}</h1>
 
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
+        <div class="post__info">
 
-  {% include head.html %}
-
-  <body>
-
-    {% include navigation.html %}
-
-    <section id="post" class="container content-section text-center">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-
-          {% include swipe-instructions.html %}
-
-          <h1><strong>{{ page.title }}</strong></h1>
-          <h4>
-            <strong>{{ page.date | date_to_string }}</strong>
-            <small>
-              . category:
-              <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
-                {{ page.category }}
-              </a>.
-              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
-              <br />
-              {% for tag in page.tags %}
-                <a class="tag" href="{{site.baseurl}}/tags/{{tag | downcase}}.html">#{{ tag }}</a>
-              {% endfor %}
-            </small>
-          </h4>
-
-          <section class="text-justify">
-            {{ page.content | markdownify }}
-          </section>
-
-          {% include share.html %}
-
-          {% if jekyll.environment == "production" %}
-            {% include comments.html %}
+          {% if page.tags.size >= 1 %}
+          <div class="post__tags">
+            {% for tag in page.tags %}
+              <a href="{{ site.baseurl }}/tag/{{ tag | downcase | replace: " ", "-" }}" class="post__tags-tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
           {% endif %}
 
+          {% if page.role or page.team or page.duration %}
+          <div class="post__bullets">
+            {% if page.role %}
+              <div>
+                <p class="title">Rol</p>
+                <p>{{page.role}}</p>
+              </div>
+            {% endif %}
 
-          <hr />
+            {% if page.team %}
+              <div>
+                <p class="title">Team</p>
+                <p>{{page.team}}</p>
+              </div>
+            {% endif %}
 
-          {% if site.author_blurb %}
-          <div class="author row">
-            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
-            <p class="col-xs-8 col-sm-9 col-md-10">
-              {{ site.author_blurb }}
-            </p>
+            {% if page.duration %}
+              <div>
+                <p class="title">Periode</p>
+                <p>{{page.duration}}</p>
+              </div>
+            {% endif %}
           </div>
-          {% endif%}
+          {% endif %}
+          
         </div>
       </div>
-    </section>
+    </div>
+  </div>
 
-    {% include footer.html %}
+  {% assign no-image = nil %}
+  {% if page.image %}
+    <div class="post__head">
+      <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
+    </div>
+  {% else %}
+    {% assign no-image = 'post-no-image' %}
+  {% endif %}
 
-    {% include js.html %}
+  </div>
 
-  </body>
-</html>
 
-<!-- Post Layout End -->
+  <div class="container">
+  <div class="row">
+    <!-- begin post -->
+    <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
+
+      <div class="post__content">
+        {{ content }}
+      </div>
+
+    </article>
+    <!-- end post -->
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h2 class="post__navigation__title">Meer lezen</h2>
+    </div>
+  
+  <div class="post__navigation">
+    
+    {% if page.previous.url %}
+    <div class="prev">
+      <a class="post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"></a>
+      <h2 class="post__nav__title">
+        <i class="ion ion-md-arrow-back"></i>
+        <a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a>
+      </h2>
+      <p class="prev__excerpt">
+        {% if page.previous.description %}
+          {{ page.previous.description }}
+        {% else %}
+          {{ page.previous.content | strip_html | truncate: 110 }}
+        {% endif %}
+      </p>
+    </div>
+    {% endif %}
+
+    {% if page.next.url %}
+    <div class="next">
+      <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
+      </a>
+      <h2 class="post__nav__title">
+        <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
+        <i class="ion ion-md-arrow-forward"></i>
+      </h2>
+      <p class="next__excerpt">
+        {% if page.next.description %}
+          {{ page.next.description }}
+        {% else %}
+          {{ page.next.content | strip_html | truncate: 110 }}
+        {% endif %}
+      </p>
+    </div>
+    {% endif %}
+  </div>
+  </div>
