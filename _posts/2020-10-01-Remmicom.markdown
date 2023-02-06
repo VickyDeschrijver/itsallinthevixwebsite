@@ -2,7 +2,7 @@
 layout: post
 title:  "Remmicom"
 date:   2020-10-01 18:05:55 +0300
-image:  Remmicom/Meeting.png
+image:  Remmicom/meeting.png
 tags:   UI Design Development AdobeXd Angular SCSS Kendo Illustrator
 role:   Front-end Developer, UI-UX designer
 team:   Narato
