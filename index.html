@@ -1,25 +1,21 @@
----
-layout: default
----
-{% include hero.html %}
-
-<div class="container">
-	<div class="row">
-		<div class="col col-12">
-			{% if site.posts.size > 0 %}
-				<h4 class="lates-title">Meer over wat ik doe</h4>
-			{% endif %}
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-	{% if site.posts.size > 0 %}
-		{% for post in paginator.posts %}
-			{% include article-content.html %}
-		{% endfor %}
-	{% endif %}
-	</div>
-</div>
-{% include pagination.html %}
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio van Vicky Deschrijver — UX/UI designer, facilitator en verbinder tussen mensen, ideeën en technologie."
+    />
+    <meta name="theme-color" content="#d8f03a" />
+    <title>Vicky Deschrijver — UX/UI designer & verbinder</title>
+    <meta name="description" content="Portfolio van Vicky Deschrijver — UX/UI designer, facilitator en verbinder tussen mensen, ideeën en technologie.">
+    <meta property="og:title" content="Vicky Deschrijver — UX/UI designer &amp; verbinder">
+    <meta property="og:description" content="Portfolio van Vicky Deschrijver — UX/UI designer, facilitator en verbinder tussen mensen, ideeën en technologie.">
+    <script type="module" crossorigin src="./assets/index-gNPii50o.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D00fFPpr.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
